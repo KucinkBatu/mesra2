@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="DinkesKetapang">
+	<meta name="robots" content="" >
+	<meta name="keywords" content="SIMPATI-FERIA">
+	<meta name="description" content="SIMPATI-FERIA">
+	<meta property="og:title" content="SIMPATI-FERIA">
+	<meta property="og:description" content="SIMPATI-FERIA" >
+	<meta property="og:image" content="https://jobick.dexignlab.com/xhtml/social-image.png">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SIMPATI-FERIA</title>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap-datepicker-master/css/bootstrap-datepicker.min.css" rel="stylesheet">
+	<link href="vendor/jquery-smartwizard/dist/css/smart_wizard.min.css" rel="stylesheet">
+	<link href="vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link class="main-css" href="css/style.css" rel="stylesheet">
+	<link href="vendor/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+	
+	<link href="vendor/bootstrap-datepicker-master/css/bootstrap-datepicker.min.css" rel="stylesheet">
+	<!-- Daterange picker -->
+    <link href="vendor/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- Clockpicker -->
+    <link href="vendor/clockpicker/css/bootstrap-clockpicker.min.css" rel="stylesheet">
+    <!-- asColorpicker -->
+    <link href="vendor/jquery-ascolorpicker/css/ascolorpicker.min.css" rel="stylesheet">
+    <!-- Material color picker -->
+    <link href="vendor/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+	
+	<link href="vendor/bootstrap-datepicker-master/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+    <!-- Pick date -->
+    <link rel="stylesheet" href="vendor/pickadate/themes/default.css">
+    <link rel="stylesheet" href="vendor/pickadate/themes/default.date.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	
+</head>
+<body>
+
+   
+    <div id="preloader">
+		<div class="lds-ripple">
+			<div></div>
+			<div></div>
+		</div>
+    </div>
+    
+    <div id="main-wrapper">
+
+        
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+				<img src="images/simpatiferia-depan.png" class="logo-abbr">
+				<img src="images/simpatiferia-belakang.png" class="brand-title">
+
+            </a>
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header">
+            <div class="header-content">
+                <nav class="navbar navbar-expand">
+                    <div class="collapse navbar-collapse justify-content-between">
+                        <div class="header-left">
+							<div class="dashboard_bar">
+                                Dashboard
+                            </div>
+							
+                        </div>
+                        <ul class="navbar-nav header-right">
+							
+							<li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link bell dlab-theme-mode p-0" href="javascript:void(0);">
+									<i id="icon-light" class="fas fa-sun"></i>
+                                    <i id="icon-dark" class="fas fa-moon"></i>
+									
+                                </a>
+							</li>
+								
+							<li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+									  <g  data-name="Layer 2" transform="translate(-2 -2)">
+										<path id="Path_20" data-name="Path 20" d="M22.571,15.8V13.066a8.5,8.5,0,0,0-7.714-8.455V2.857a.857.857,0,0,0-1.714,0V4.611a8.5,8.5,0,0,0-7.714,8.455V15.8A4.293,4.293,0,0,0,2,20a2.574,2.574,0,0,0,2.571,2.571H9.8a4.286,4.286,0,0,0,8.4,0h5.23A2.574,2.574,0,0,0,26,20,4.293,4.293,0,0,0,22.571,15.8ZM7.143,13.066a6.789,6.789,0,0,1,6.78-6.78h.154a6.789,6.789,0,0,1,6.78,6.78v2.649H7.143ZM14,24.286a2.567,2.567,0,0,1-2.413-1.714h4.827A2.567,2.567,0,0,1,14,24.286Zm9.429-3.429H4.571A.858.858,0,0,1,3.714,20a2.574,2.574,0,0,1,2.571-2.571H21.714A2.574,2.574,0,0,1,24.286,20a.858.858,0,0,1-.857.857Z"/>
+									  </g>
+									</svg>
+                                    <span class="badge light text-white bg-primary rounded-circle">4</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <div id="DZ_W_Notification1" class="widget-media dlab-scroll p-3" style="height:380px;">
+										<ul class="timeline">
+											<li>
+												<div class="timeline-panel">
+													<div class="media me-2">
+														<img alt="image" width="50" src="images/avatar/1.jpg">
+													</div>
+													<div class="media-body">
+														<h6 class="mb-1">Dr sultads Send you Photo</h6>
+														<small class="d-block">29 July 2020 - 02:26 PM</small>
+													</div>
+												</div>
+											</li>
+											
+										</ul>
+									</div>
+                                    <a class="all-notification" href="javascript:void(0);">See all notifications <i class="ti-arrow-end"></i></a>
+                                </div>
+                            </li>
+							
+							
+							
+							<li class="nav-item dropdown header-profile">
+                                <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
+                                    <img src="images/profile/bidan1.jpg" width="20" alt="">
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <a href="app-profile.html" class="dropdown-item ai-icon">
+                                        <svg id="icon-user2" xmlns="http://www.w3.org/2000/svg" class="text-primary" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                        <span class="ms-2">Profile </span>
+                                    </a>
+                                    <a href="email-inbox.html" class="dropdown-item ai-icon">
+                                        <svg id="icon-inbox1" xmlns="http://www.w3.org/2000/svg" class="text-success" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                        <span class="ms-2">Inbox </span>
+                                    </a>
+                                    <a href="page-register.html" class="dropdown-item ai-icon">
+                                        <svg  xmlns="http://www.w3.org/2000/svg" class="text-danger" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                                        <span class="ms-2">Logout </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+				</nav>
+			</div>
+		</div>
+        
+		<div class="dlabnav">
+            <div class="dlabnav-scroll">
+				<div class="dropdown header-profile2 ">
+					<a class="nav-link " href="javascript:void(0);"  role="button" data-bs-toggle="dropdown">
+						<div class="header-info2 d-flex align-items-center">
+							<img src="images/profile/bidan1.jpg" alt="">
+							<div class="d-flex align-items-center sidebar-info">
+								<div>
+									<span class="font-w400 d-block">Ibu Bidan 1</span>
+									<small class="text-end font-w400">Bidan Puskesmas</small>
+								</div>	
+								
+							</div>
+							
+						</div>
+					</a>
+					<div class="dropdown-menu dropdown-menu-end">
+						<a href="app-profile.html" class="dropdown-item ai-icon ">
+							<svg  xmlns="http://www.w3.org/2000/svg" class="text-primary" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+							<span class="ms-2">Profile </span>
+						</a>
+						<a href="email-inbox.html" class="dropdown-item ai-icon">
+							<svg  xmlns="http://www.w3.org/2000/svg" class="text-success" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+							<span class="ms-2">Inbox </span>
+						</a>
+						<a href="page-register.html" class="dropdown-item ai-icon">
+							<svg  xmlns="http://www.w3.org/2000/svg" class="text-danger" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+							<span class="ms-2">Logout </span>
+						</a>
+					</div>
+				</div>
+				<ul class="metismenu" id="menu">
+					<li><a href="index.html" class="" aria-expanded="false">
+						<i class="flaticon-025-dashboard"></i>
+						<span class="nav-text">Dashboard</span>
+					</a>
+					</li>
+					<li><a href="ibuhamil.html" class="" aria-expanded="false">
+						<i class="flaticon-045-heart"></i>
+						<span class="nav-text">Ibu Hamil</span>
+					</a>
+                    
+					<li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
+						<i class="flaticon-041-graph"></i>
+						<span class="nav-text">Laporan</span>
+						</a>
+						<ul aria-expanded="false">
+							<li><a href="ibuhamil_tinggi.html">Resiko Tinggi</a></li>
+							<li><a href="ibuhamil_rendah.html">Resiko Rendah</a></li>
+							<li><a href="ibuhamil_anc.html">ANC</a></li>
+						</ul>
+					</li>
+                    
+                </ul>
+				<div class="plus-box">
+					<img src="images/simpatiferia.png" class="img-fluid" alt="">					
+					<p class="plus-box-p text-center"><br>Selamatkan Ibu Hamil Melalui Persalinan Aman dan Pasti</p>					
+				</div>
+				<div class="copyright">
+					<p><strong>SIMPATI-FERIA</strong> © 2024 All Rights Reserved</p>
+					<p class="fs-12">Made with <span class="heart"></span> by Dinkes Ketapang</p>
+				</div>
+			</div>
+        </div>
+        
+        <div class="content-body">
+            <!-- row -->
+			<div class="container-fluid">
+				
+				<div class="row">
+                    <div class="col-xl-12 col-xxl-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Tambah Data Ibu Hamil</h4>
+                            </div>
+                            <div class="card-body">
+								<div id="smartwizard" class="form-wizard order-create">
+									<ul class="nav nav-wizard">
+										<li><a class="nav-link" href="#wizard_Service"> 
+											<span>1</span> 
+										</a></li>
+										<li><a class="nav-link" href="#wizard_Time">
+											<span>2</span>
+										</a></li>
+										<li><a class="nav-link" href="#wizard_Details">
+											<span>3</span>
+										</a></li>
+										<li><a class="nav-link" href="#wizard_Payment">
+											<span>4</span>
+										</a></li>
+									</ul>
+									<div class="tab-content">
+										<div id="wizard_Service" class="tab-pane" role="tabpanel">
+											<div class="row">
+												<div class="col-lg-6 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">No. KK*</label>
+														<input type="text" name="firstName" class="form-control" placeholder="Parsley" required>
+													</div>
+												</div>
+												<div class="col-lg-6 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">NIK*</label>
+														<input type="text" name="lastName" class="form-control" placeholder="Montana" required>
+													</div>
+												</div>
+												
+											</div>
+											<div class="row">
+												<div class="col-lg-6 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Nama Ibu*</label>
+														<input type="text" name="firstName" class="form-control" placeholder="Parsley" required>
+													</div>
+												</div>
+												<div class="col-lg-6 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">HP*</label>
+														<input type="number" name="phoneNumber" class="form-control" placeholder="(+1)408-657-9007" required>
+													</div>
+												</div>
+												<div class="col-lg-6 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">WA*</label>
+														<input type="number" name="phoneNumber" class="form-control" placeholder="(+1)408-657-9007" required>
+													</div>
+												</div>
+												<div class="col-lg-6 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Email</label>
+														<input type="email" class="form-control" id="inputGroupPrepend2" aria-describedby="inputGroupPrepend2" placeholder="example@example.com.com" required>
+													</div>
+												</div>
+												<div class="col-lg-6 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Tempat Lahir</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Kabupaten 1</option>
+															<option>Kabupaten 2</option>
+															<option>Kabupaten 3</option>
+														</select>
+													</div>
+												</div>
+
+												
+													<div class="col-xl-6  col-md-6 mb-4">
+														<label  class="form-label font-w600">Tanggal Lahir</label>
+														<div class="input-hasicon">
+															<input name="datepicker" class="form-control bt-datepicker">
+															<div class="icon"><i class="far fa-calendar"></i></div>
+														</div>
+													</div>
+													
+												
+												
+												
+												
+											</div>
+											<div class="row">
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Provinsi</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Provinsi 1</option>
+															<option>Provinsi 2</option>
+															<option>Provinsi 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Kabupaten</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Kabupaten 1</option>
+															<option>Kabupaten 2</option>
+															<option>Kabupaten 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Kecamatan</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Kecamatan 1</option>
+															<option>Kecamatan 2</option>
+															<option>Kecamatan 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Desa</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Desa 1</option>
+															<option>Desa 2</option>
+															<option>Desa 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">RT</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>RT 1</option>
+															<option>RT 2</option>
+															<option>RT 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">RW</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>RW 1</option>
+															<option>RW 2</option>
+															<option>RW 3</option>
+														</select>
+													</div>
+												</div>
+											
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 mb-4">
+													<div class="mb-3">
+														<label class="text-label form-label">Alamat*</label>
+														<input type="text" name="place" class="form-control" required>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Provinsi</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Provinsi 1</option>
+															<option>Provinsi 2</option>
+															<option>Provinsi 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Kabupaten</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Kabupaten 1</option>
+															<option>Kabupaten 2</option>
+															<option>Kabupaten 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Kecamatan</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Kecamatan 1</option>
+															<option>Kecamatan 2</option>
+															<option>Kecamatan 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Desa</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Desa 1</option>
+															<option>Desa 2</option>
+															<option>Desa 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">RT</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>RT 1</option>
+															<option>RT 2</option>
+															<option>RT 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">RW</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>RW 1</option>
+															<option>RW 2</option>
+															<option>RW 3</option>
+														</select>
+													</div>
+												</div>
+											
+
+											</div>
+											<div class="row">
+												<div class="col-lg-12 mb-4">
+													<div class="mb-3">
+														<label class="text-label form-label">Alamat*</label>
+														<input type="text" name="place" class="form-control" required>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Jenis Asuransi</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Asuransi 1</option>
+															<option>Asuransi 2</option>
+															<option>Asuransi 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Nomor Polis</label>
+														<input type="text" name="firstName" class="form-control" placeholder="Polis" required>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Status Kesejahteraan</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Status 1</option>
+															<option>Status 2</option>
+															<option>Status 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Pendidikan</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Pendidikan 1</option>
+															<option>Pendidikan 2</option>
+															<option>Pendidikan 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Agama</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Agama 1</option>
+															<option>Agama 2</option>
+															<option>Agama 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Pekerjaan</label>
+														<select class="default-select form-control form-control wide mb-3">
+															<option>Pekerjaan 1</option>
+															<option>Pekerjaan 2</option>
+															<option>Pekerjaan 3</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Cuci Tangan dengan Sabun?</label>
+														<div class="mb-3 mb-0">
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+															  <label class="form-check-label" for="inlineRadio1">Ya</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+															  <label class="form-check-label" for="inlineRadio2">Tidak</label>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Penanganan Tinja</label>
+														<div class="mb-3 mb-0">
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+															  <label class="form-check-label" for="inlineRadio1">Ya</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+															  <label class="form-check-label" for="inlineRadio2">Tidak</label>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Sumber Air Bersih</label>
+														<div class="mb-3 mb-0">
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+															  <label class="form-check-label" for="inlineRadio1">Ya</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+															  <label class="form-check-label" for="inlineRadio2">Tidak</label>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+												
+											
+
+											</div>
+											<div class="row">
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">NIK Suami / Pendamping</label>
+														<input type="text" name="firstName" class="form-control" placeholder="Parsley" required>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Nama Suami / Pendamping</label>
+														<input type="text" name="lastName" class="form-control" placeholder="Montana" required>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Telp Suami / Pendamping</label>
+														<input type="text" name="lastName" class="form-control" placeholder="Montana" required>
+													</div>
+												</div>
+
+											</div>
+											
+										</div>
+										<div id="wizard_Time" class="tab-pane" role="tabpanel">
+											<div class="row">
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Hari Pertama Haid Terakhir (HPPT)</label>
+													<div class="input-hasicon">
+														<input name="datepicker" class="form-control bt-datepicker">
+														<div class="icon"><i class="far fa-calendar"></i></div>
+													</div>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Hari Perkiraan Lahir (HPL)</label>
+													<div class="input-hasicon">
+														<input name="datepicker" class="form-control bt-datepicker">
+														<div class="icon"><i class="far fa-calendar"></i></div>
+													</div>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Gol Darah</label>
+													<select class="default-select form-control form-control wide">
+														<option>Gol 1</option>
+														<option>Gol 2</option>
+														<option>Gol 3</option>
+													</select>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Rhesus</label>
+													<select class="default-select form-control form-control wide">
+														<option>Rhesus 1</option>
+														<option>Rhesus 2</option>
+														<option>Rhesus 3</option>
+													</select>
+												</div>
+												
+											</div>
+											<div class="row">
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Disabilitas</label>
+														<div class="mb-3 mb-0">
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+															  <label class="form-check-label" for="inlineRadio1">Ya</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+															  <label class="form-check-label" for="inlineRadio2">Tidak</label>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+												
+												
+											</div>
+											<div class="row">
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Riwayat Komplikasi Kehamilan Sebelumnya</label>
+													<select class="default-select form-control form-control wide">
+														<option>Komplikasi 1</option>
+														<option>Komplikasi 2</option>
+														<option>Komplikasi 3</option>
+													</select>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Riwayat Penyakit</label>
+													<select class="default-select form-control form-control wide">
+														<option>Penyakit 1</option>
+														<option>Penyakit 2</option>
+														<option>Penyakit 3</option>
+													</select>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Riwayat Penyakit Keluarga</label>
+													<select class="default-select form-control form-control wide">
+														<option>Penyakit 1</option>
+														<option>Penyakit 2</option>
+														<option>Penyakit 3</option>
+													</select>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Riwayat Perilaku Beresiko</label>
+													<select class="default-select form-control form-control wide">
+														<option>Perilaku 1</option>
+														<option>Perilaku 2</option>
+														<option>Perilaku 3</option>
+													</select>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Riwayat KB</label>
+													<select class="default-select form-control form-control wide">
+														<option>KB 1</option>
+														<option>KB 2</option>
+														<option>KB 3</option>
+													</select>
+												</div>
+												
+											</div>
+										</div>
+										<div id="wizard_Details" class="tab-pane" role="tabpanel">
+											<div class="row">
+												<div class="col-xl-2  col-md-6 mb-4">
+													<label  class="form-label font-w600">BB Sebelum Hamil</label>
+													<input type="text" name="lastName" class="form-control" placeholder="Kg" required>
+												</div>
+												<div class="col-xl-2  col-md-6 mb-4">
+													<label  class="form-label font-w600">Tinggi Badan</label>
+													<input type="text" name="lastName" class="form-control" placeholder="Cm" required>
+												</div>
+												<div class="col-xl-2  col-md-6 mb-4">
+													<label  class="form-label font-w600">IMT</label>
+													<input type="text" name="lastName" class="form-control" placeholder="IMT" required>
+												</div>
+												<div class="col-xl-2  col-md-6 mb-4">
+													<label  class="form-label font-w600">Hamil ke</label>
+													<input type="text" name="lastName" class="form-control" placeholder="0" required>
+												</div>
+												<div class="col-xl-2  col-md-6 mb-4">
+													<label  class="form-label font-w600">Persalinan</label>
+													<input type="text" name="lastName" class="form-control" placeholder="0" required>
+												</div>
+												<div class="col-xl-2  col-md-6 mb-4">
+													<label  class="form-label font-w600">Keguguran</label>
+													<input type="text" name="lastName" class="form-control" placeholder="0" required>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Status TT</label>
+													<input type="text" name="lastName" class="form-control" placeholder="Kg" required>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Rencana Persalinan</label>
+													<select class="default-select form-control form-control wide">
+														<option>Kab 1</option>
+														<option>Kab 2</option>
+														<option>Kab 3</option>
+													</select>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Fasilitas Persalinan</label>
+													<select class="default-select form-control form-control wide">
+														<option>Fasilitas 1</option>
+														<option>Fasilitas 2</option>
+														<option>Fasilitas 3</option>
+													</select>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Pendamping Persalinan</label>
+													<select class="default-select form-control form-control wide">
+														<option>Pendamping 1</option>
+														<option>Pendamping 2</option>
+														<option>Pendamping 3</option>
+													</select>
+												</div>
+												
+											</div>
+											<div class="row">
+												
+												<div class="col-xl-4  col-md-6 mb-4">
+													<label  class="form-label font-w600">Jenis Kendaraan</label>
+													<select class="default-select form-control form-control wide">
+														<option>Kendaraan 1</option>
+														<option>Kendaraan 2</option>
+														<option>Kendaraan 3</option>
+													</select>
+												</div>
+												<div class="col-xl-4  col-md-6 mb-4">
+													<label  class="form-label font-w600">Pemilik</label>
+													<input type="text" name="lastName" class="form-control" placeholder="Nama" required>
+												</div>
+												<div class="col-xl-4  col-md-6 mb-4">
+													<label  class="form-label font-w600">No Telepon</label>
+													<input type="text" name="lastName" class="form-control" placeholder="No Telepon" required>
+												</div>
+												
+											</div>
+											<div class="row">
+												
+												<div class="col-xl-4  col-md-6 mb-4">
+													<label  class="form-label font-w600">Pendonor</label>
+													<input type="text" name="lastName" class="form-control" placeholder="Nama" required>
+												</div>
+												<div class="col-xl-4  col-md-6 mb-4">
+													<label  class="form-label font-w600">Golongan Darah</label>
+													<select class="default-select form-control form-control wide">
+														<option>Kendaraan 1</option>
+														<option>Kendaraan 2</option>
+														<option>Kendaraan 3</option>
+													</select>
+												</div>
+												<div class="col-xl-4  col-md-6 mb-4">
+													<label  class="form-label font-w600">No Telepon</label>
+													<input type="text" name="lastName" class="form-control" placeholder="No Telepon" required>
+												</div>
+												
+											</div>
+										</div>
+										<div id="wizard_Payment" class="tab-pane" role="tabpanel">
+											<div class="row">
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Memiliki Buku KIA?</label>
+														<div class="mb-3 mb-0">
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+															  <label class="form-check-label" for="inlineRadio1">Ya</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+															  <label class="form-check-label" for="inlineRadio2">Tidak</label>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Ikut Senam Hamil?</label>
+														<div class="mb-3 mb-0">
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+															  <label class="form-check-label" for="inlineRadio1">Ya</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+															  <label class="form-check-label" for="inlineRadio2">Tidak</label>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 mb-2">
+													<div class="mb-3">
+														<label class="text-label form-label">Ikut Kelas Ibu?</label>
+														<div class="mb-3 mb-0">
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+															  <label class="form-check-label" for="inlineRadio1">Ya</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+															  <label class="form-check-label" for="inlineRadio2">Tidak</label>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Fasilitas Kesehatan</label>
+													<select class="default-select form-control form-control wide">
+														<option>Fasilitas 1</option>
+														<option>Fasilitas 2</option>
+														<option>Fasilitas 3</option>
+													</select>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Tenaga Kesehatan</label>
+													<select class="default-select form-control form-control wide">
+														<option>Tenaga 1</option>
+														<option>Tenaga 2</option>
+														<option>Tenaga 3</option>
+													</select>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Posyandu</label>
+													<select class="default-select form-control form-control wide">
+														<option>Posyandu 1</option>
+														<option>Posyandu 2</option>
+														<option>Posyandu 3</option>
+													</select>
+												</div>
+												<div class="col-xl-3  col-md-6 mb-4">
+													<label  class="form-label font-w600">Kader</label>
+													<select class="default-select form-control form-control wide">
+														<option>Kader 1</option>
+														<option>Kader 2</option>
+														<option>Kader 3</option>
+													</select>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright © Developed by <a href="https://dinkes.ketapangkab.go.id/" target="_blank">Dinkes Ketapang</a> 2024</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+
+
+
+	</div>
+    
+    <script src="vendor/global/global.min.js"></script>
+	<script src="vendor/chartjs/chart.bundle.min.js"></script>
+	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="vendor/bootstrap-datepicker-master/js/bootstrap-datepicker.min.js"></script>
+
+	<script src="vendor/jquery-smartwizard/dist/js/jquery.smartWizard.js"></script>
+	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="js/plugins-init/jquery.validate-init.js"></script>
+	<!-- momment js is must -->
+    <script src="vendor/moment/moment.min.js"></script>
+    <script src="vendor/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- clockpicker -->
+    <script src="vendor/clockpicker/js/bootstrap-clockpicker.min.js"></script>
+    <!-- asColorPicker -->
+    <script src="vendor/jquery-ascolor/jquery-ascolor.min.js"></script>
+    <script src="vendor/jquery-asgradient/jquery-asgradient.min.js"></script>
+    <script src="vendor/jquery-ascolorpicker/js/jquery-ascolorpicker.min.js"></script>
+    <!-- Material color picker -->
+    <script src="vendor/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+	<script src="vendor/bootstrap-datepicker-master/js/bootstrap-datepicker.min.js"></script>
+    <!-- pickdate -->
+    <script src="vendor/pickadate/picker.js"></script>
+    <script src="vendor/pickadate/picker.time.js"></script>
+    <script src="vendor/pickadate/picker.date.js"></script>
+
+   
+	
+	<script src="js/custom.min.js"></script>
+	<script src="js/dlabnav-init.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			// SmartWizard initialize
+			$('#smartwizard').smartWizard(); 
+		});
+	</script>
+	
+	
+    
+
+	
+
+</body>
+</html>
